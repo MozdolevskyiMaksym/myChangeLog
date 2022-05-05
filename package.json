@@ -1,25 +1,35 @@
 {
-  "name": "mychangelog",
-  "version": "1.0.0",
+  "name": "changesets-test",
+  "version": "1.0.1",
   "description": "Changesets example for simple package repository",
   "main": "index.ts",
-  "scripts": {
-    "changeset": "changeset",
-    "prerelease": "yarn test && yarn build",
-    "release": "changeset publish"
-  },
+
+  "author": "Maksym Mozdolevskyi <mexickoe@gmail.com>",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MozdolevskyiMaksym/myChangeLog.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MozdolevskyiMaksym/myChangeLog/issues"
+  "publishConfig": {
+    "access": "public"
   },
-  "homepage": "https://github.com/MozdolevskyiMaksym/myChangeLog#readme",
+  "scripts": {
+    "start": "ts-node .",
+    "test": "echo 'test'",
+    "build": "echo 'build'",
+    "changeset": "changeset",
+    "prerelease": "yarn test && yarn build",
+    "release": "changeset publish"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/node": "^17.0.30",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
   "dependencies": {
     "@changesets/cli": "^2.22.0",
     "@changesets/types": "^5.0.0"
   }
 }
+
