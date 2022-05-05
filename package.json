@@ -1,5 +1,5 @@
 {
-  "name": "mychange-log",
+  "name": "@kaamos/mychange-log",
   "version": "1.1.0",
   "description": "Changesets example for simple package repository",
   "main": "index.ts",
