@@ -1,6 +1,6 @@
 {
-  "name": "changesets-test",
-  "version": "1.0.1",
+  "name": "mychange-log",
+  "version": "1.0.0",
   "description": "Changesets example for simple package repository",
   "main": "index.ts",
 
@@ -8,7 +8,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MozdolevskyiMaksym/myChangeLog.git"
+    "url": "git+https://github.com/MozdolevskyiMaksym/mychange-log"
   },
   "publishConfig": {
     "access": "public"
