@@ -1,9 +1,8 @@
 {
   "name": "mychange-log",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Changesets example for simple package repository",
   "main": "index.ts",
-
   "author": "Maksym Mozdolevskyi <mexickoe@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -23,7 +22,7 @@
   },
   "keywords": [],
   "devDependencies": {
-    "@types/node": "^17.0.30",
+    "@types/node": "^17.0.31",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.4"
   },
@@ -32,4 +31,3 @@
     "@changesets/types": "^5.0.0"
   }
 }
-
