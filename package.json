@@ -1,0 +1,25 @@
+{
+  "name": "mychangelog",
+  "version": "1.0.0",
+  "description": "Changesets example for simple package repository",
+  "main": "index.ts",
+  "scripts": {
+    "changeset": "changeset",
+    "prerelease": "yarn test && yarn build",
+    "release": "changeset publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MozdolevskyiMaksym/myChangeLog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MozdolevskyiMaksym/myChangeLog/issues"
+  },
+  "homepage": "https://github.com/MozdolevskyiMaksym/myChangeLog#readme",
+  "dependencies": {
+    "@changesets/cli": "^2.22.0",
+    "@changesets/types": "^5.0.0"
+  }
+}
